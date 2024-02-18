@@ -15,7 +15,7 @@ public class MetierImpl implements IMetier {
     private IDao dao;
 
     //Injection via constructeur
-    public MetierImpl(@Qualifier("dao") IDao dao) {
+    public MetierImpl(@Qualifier("dao2") IDao dao) {
 
         this.dao = dao;
     }
